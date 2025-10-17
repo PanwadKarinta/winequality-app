@@ -36,7 +36,7 @@ try:
 
     # แบ่งข้อมูล train/test
     X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y, test_size=0.1, random_state=42, stratify=y
+        X_scaled, y, test_size=0.4, random_state=42, stratify=y
     )
 
     # ตั้งค่า Hyperparameter ของ Decision Tree
